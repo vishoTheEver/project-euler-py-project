@@ -18,15 +18,18 @@ Leonhard Euler's name graces this venture not only for his enormous contribution
 4. **README.md**: Provides a comprehensive guide for users, contributors, and any curious minds. You're currently viewing it!
 5. **LICENSE**: A file that stipulates the rights and restrictions associated with the project.
 
-## 📊 Problem Tracker
+## 🧮 Problem Showcase
 
-Here's a quick look at the problems we've tackled so far:
-
-| Problem ID | Title                             |
-|------------|----------------------------------|
-| 001        | Multiples of 3 and 5             |
-| 002        | Even Fibonacci numbers           |
-| ...        | ...                              |
+| ID  | Title                                |
+|-----|--------------------------------------|
+| 1   | Multiples of 3 and 5                 |
+| 2   | Even Fibonacci numbers               |
+| 3   | Largest prime factor                 |
+| 4   | Largest palindrome product           |
+| 5   | Smallest multiple                    |
+| ... | ...                                  |
+| 850 | Fractions of Powers                  |
+| 851 | SOP and POS                          |
 
 _To view the full list and details, explore the `problems.py` file._
 
