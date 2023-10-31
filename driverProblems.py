@@ -14,3 +14,6 @@ print("Solution 4: " + str(problems.largestPalindromeProduct(3)))
 
 # Problem 5: Smallest Multiple
 print("Solution 5: " + str(problems.smallestMultiple(1,20)))
+
+# Problem 6: Sum Square Difference
+print("Solution 6: " + str(problems.sumSquareDifference(1, 100)))

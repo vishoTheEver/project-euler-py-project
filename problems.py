@@ -71,3 +71,17 @@ def smallestMultiple(a, b):
         if cases_passed == b-a+1:
             found_smallest_multiple = True
     return count;
+
+# Problem 6: Sum Square Difference
+def sumSquareDifference(a,b):
+    sum_of_squares = 0
+    for num in range(a,b+1):
+        sum_of_squares += num**2
+
+    squares_of_sum = 0
+    sum = 0
+    for num in range(a,b+1):
+        sum += num
+    squares_of_sum = sum**2
+
+    return squares_of_sum-sum_of_squares

@@ -19,3 +19,7 @@ def test_largestPalindromeProduct():
 def test_smallestMultiple():
     assert problems.smallestMultiple(1,10) == 2520
     assert problems.smallestMultiple(1,20) == 232792560
+
+def test_sumSquareDifference():
+    assert problems.sumSquareDifference(1, 10) == 2640
+    assert problems.sumSquareDifference(1, 100) == 25164150
