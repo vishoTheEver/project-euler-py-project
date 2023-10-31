@@ -1,3 +1,4 @@
+import math
 
 
 # Problem 1: Multiples of 3 or 5
@@ -18,3 +19,24 @@ def evenFibonacciNumbers(n):
         ## t1 --> t2 and t2 --> t1 + t2
         t1, t2 = t2, t1 + t2
     return sum
+
+# Problem 3: Largest Prime Factor
+def largestPrimeFactor(n):
+    factors = []
+    for num in range(2, int(math.sqrt(n))):
+        if n % num == 0:
+            factors.append(num)
+    # prime factors
+    prime_factors = []
+    is_prime = True # check
+    for divisors in factors:
+        for i in range(2, divisors):
+            if divisors % i == 0:
+                is_prime = False # condition dissatisfied
+                break # prevents further loops
+        if(is_prime):
+            prime_factors.append(divisors)
+
+    # largest prime factor
+    lpf = prime_factors[-1] # largest pf at the end.
+    return lpf

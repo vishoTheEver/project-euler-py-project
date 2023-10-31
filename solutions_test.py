@@ -7,3 +7,7 @@ def test_multiples_of3or5():
 def test_evenFibonacciNumbers():
     assert problems.evenFibonacciNumbers(10) == 10
     assert problems.evenFibonacciNumbers(4000000) == 4613732 # find
+
+def test_largestPrimeFactor():
+    assert problems.largestPrimeFactor(13195) == 29
+    assert problems.largestPrimeFactor(600851475143) == 6857
