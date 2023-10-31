@@ -1,6 +1,6 @@
 # 🐍 project-euler-py-solutions 📐
 
-![Banner]([https://www.placehold.it/1200x300/333333/ffffff?text=Project+Euler+Py+Solutions](https://raw.githubusercontent.com/verloka/Project-Euler/master/march/logo.jpg))
+![Banner](https://raw.githubusercontent.com/verloka/Project-Euler/master/march/logo.jpg)
 
 Diving into the depths of mathematics and computer science, this repository stands as a testament to the journey of solving computational and algorithmic challenges posed by [Project Euler](https://projecteuler.net/). 
 
