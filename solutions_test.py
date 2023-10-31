@@ -15,3 +15,7 @@ def test_largestPrimeFactor():
 def test_largestPalindromeProduct():
     assert problems.largestPalindromeProduct(2) == 9009
     assert problems.largestPalindromeProduct(3) == 906609 # find
+
+def test_smallestMultiple():
+    assert problems.smallestMultiple(1,10) == 2520
+    assert problems.smallestMultiple(1,20) == 232792560

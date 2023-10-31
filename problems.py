@@ -57,3 +57,17 @@ def largestPalindromeProduct(n):
     palindromes.sort()
     max_palindrome = palindromes[-1]
     return max_palindrome
+
+# Problem 5: Smallest Multiple
+def smallestMultiple(a, b):
+    count = (b-1)+1
+    found_smallest_multiple = False
+    while not found_smallest_multiple:
+        count +=1
+        cases_passed = 0
+        for cases in range(a,b+1):
+            if(count % cases == 0):
+                cases_passed += 1
+        if cases_passed == b-a+1:
+            found_smallest_multiple = True
+    return count;

@@ -11,3 +11,6 @@ print("Solution 3: " + str(problems.largestPrimeFactor(600851475143)))
 
 # Problem 4: Largest Palindrome Product
 print("Solution 4: " + str(problems.largestPalindromeProduct(3)))
+
+# Problem 5: Smallest Multiple
+print("Solution 5: " + str(problems.smallestMultiple(1,20)))
