@@ -40,3 +40,20 @@ def largestPrimeFactor(n):
     # largest prime factor
     lpf = prime_factors[-1] # largest pf at the end.
     return lpf
+
+# Problem 4: Largest Palindrome Product
+def largestPalindromeProduct(n):
+    # finding all palindromes between 10^(n-1) and 10^n-1
+    min_num = 10**(n-1)
+    max_num = 10**n - 1
+    palindromes = []
+    for num1 in range(min_num, max_num+1):
+        for num2 in range(min_num, max_num+1):
+            product_str = str(num1 * num2)
+            product_str_reversed = product_str[::-1]
+            if(product_str == product_str_reversed):
+                palindromes.append(int(product_str))
+    # finding the max palindrome
+    palindromes.sort()
+    max_palindrome = palindromes[-1]
+    return max_palindrome

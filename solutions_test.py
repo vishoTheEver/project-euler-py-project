@@ -11,3 +11,7 @@ def test_evenFibonacciNumbers():
 def test_largestPrimeFactor():
     assert problems.largestPrimeFactor(13195) == 29
     assert problems.largestPrimeFactor(600851475143) == 6857
+
+def test_largestPalindromeProduct():
+    assert problems.largestPalindromeProduct(2) == 9009
+    assert problems.largestPalindromeProduct(3) == 906609

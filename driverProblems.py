@@ -8,3 +8,6 @@ print("Solution 2: " + str(problems.evenFibonacciNumbers(4000000)))
 
 # Problem 3: Largest Prime Factor
 print("Solution 3: " + str(problems.largestPrimeFactor(600851475143)))
+
+# Problem 4: Largest Palindrome Product
+print("Solution 4: " + str(problems.largestPalindromeProduct(3)))
