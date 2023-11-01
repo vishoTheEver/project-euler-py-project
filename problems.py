@@ -75,13 +75,28 @@ def smallestMultiple(a, b):
 # Problem 6: Sum Square Difference
 def sumSquareDifference(a,b):
     sum_of_squares = 0
-    for num in range(a,b+1):
-        sum_of_squares += num**2
-
-    squares_of_sum = 0
     sum = 0
     for num in range(a,b+1):
+        sum_of_squares += num**2
         sum += num
     squares_of_sum = sum**2
 
     return squares_of_sum-sum_of_squares
+
+# Problem 7: 10001st Prime
+def prime10001st(n):
+    primes = []
+    primes.append(2)
+    current_number = 3
+    while(len(primes) < n):
+        is_prime = True;
+        for prime in primes:
+            if(prime * prime > current_number):
+                break;
+            if current_number % prime == 0:
+                is_prime = False;
+                break;
+        if(is_prime):
+            primes.append(current_number);
+        current_number += 1
+    return primes[-1]

@@ -13,7 +13,10 @@ print("Solution 3: " + str(problems.largestPrimeFactor(600851475143)))
 print("Solution 4: " + str(problems.largestPalindromeProduct(3)))
 
 # Problem 5: Smallest Multiple
-print("Solution 5: " + str(problems.smallestMultiple(1,20)))
+# print("Solution 5: " + str(problems.smallestMultiple(1,20)))
 
 # Problem 6: Sum Square Difference
 print("Solution 6: " + str(problems.sumSquareDifference(1, 100)))
+
+# Problem 7: 1001st Prime
+print("Solution 7: " + str(problems.prime10001st(10001)))

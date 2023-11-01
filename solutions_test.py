@@ -23,3 +23,7 @@ def test_smallestMultiple():
 def test_sumSquareDifference():
     assert problems.sumSquareDifference(1, 10) == 2640
     assert problems.sumSquareDifference(1, 100) == 25164150
+
+def test_10001stPrime():
+    assert problems.prime10001st(6) == 13
+    assert problems.prime10001st(10001) == 104743
