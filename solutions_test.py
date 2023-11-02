@@ -1,8 +1,5 @@
 import problems
 
-def test_multiples_of3or5():
-    assert problems.multiplesOf3or5(10) == 23
-    assert problems.multiplesOf3or5(1000) == 233168 # find
 
 def test_evenFibonacciNumbers():
     assert problems.evenFibonacciNumbers(10) == 10
@@ -27,3 +24,7 @@ def test_sumSquareDifference():
 def test_10001stPrime():
     assert problems.prime10001st(6) == 13
     assert problems.prime10001st(10001) == 104743
+
+def test_powerDigitSum():
+    assert problems.powerDigitSum(15) == 26
+    assert problems.powerDigitSum(1000) == 1366

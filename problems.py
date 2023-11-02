@@ -16,7 +16,7 @@ def evenFibonacciNumbers(n):
     while (t2 <= n):
         if (t2 % 2 == 0):
             sum += t2
-        ## t1 --> t2 and t2 --> t1 + t2
+        # t1 --> t2 and t2 --> t1 + t2
         t1, t2 = t2, t1 + t2
     return sum
 
@@ -100,3 +100,11 @@ def prime10001st(n):
             primes.append(current_number);
         current_number += 1
     return primes[-1]
+
+# Problem 16: Power Digit Sum
+def powerDigitSum(pow):
+    num = str(2**pow)
+    sum = 0
+    for i in range(len(num)):
+        sum += int(num[i])
+    return sum

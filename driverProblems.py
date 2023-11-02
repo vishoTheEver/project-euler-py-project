@@ -20,3 +20,9 @@ print("Solution 6: " + str(problems.sumSquareDifference(1, 100)))
 
 # Problem 7: 1001st Prime
 print("Solution 7: " + str(problems.prime10001st(10001)))
+
+# Problem 8: Largest Product in a Series
+# print("Solution 8: " + str(problems.largestProductInSeries(9989)))
+
+# Problem 16: Power Digit Sum
+print("Solution 16: " + str(problems.powerDigitSum(1000)))
