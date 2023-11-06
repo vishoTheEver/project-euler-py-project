@@ -25,6 +25,8 @@ def test_10001stPrime():
     assert problems.prime10001st(6) == 13
     assert problems.prime10001st(10001) == 104743
 
+def test_specialPythagoreanTriplet():
+    assert problems.specialPythagorasTriplet() == 31875000
 def test_powerDigitSum():
     assert problems.powerDigitSum(15) == 26
     assert problems.powerDigitSum(1000) == 1366

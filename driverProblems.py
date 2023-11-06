@@ -24,5 +24,8 @@ print("Solution 7: " + str(problems.prime10001st(10001)))
 # Problem 8: Largest Product in a Series
 # print("Solution 8: " + str(problems.largestProductInSeries(9989)))
 
+# Problem 9: Special Pythagoras Triplet
+print("Solution 9: " + str(problems.specialPythagorasTriplet()))
+
 # Problem 16: Power Digit Sum
 print("Solution 16: " + str(problems.powerDigitSum(1000)))

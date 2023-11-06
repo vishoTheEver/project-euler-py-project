@@ -101,6 +101,16 @@ def prime10001st(n):
         current_number += 1
     return primes[-1]
 
+# Problem 9: Special Pythagoras Triplet
+def specialPythagorasTriplet():
+    for a in range(1000):
+        for b in range(1000):
+            for c in range(1000):
+                if a < b < c:
+                    if a**2 + b**2 == c**2:
+                        if a + b + c == 1000:
+                            return a*b*c
+
 # Problem 16: Power Digit Sum
 def powerDigitSum(pow):
     num = str(2**pow)
@@ -108,3 +118,4 @@ def powerDigitSum(pow):
     for i in range(len(num)):
         sum += int(num[i])
     return sum
+
