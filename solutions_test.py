@@ -27,6 +27,13 @@ def test_10001stPrime():
 
 def test_specialPythagoreanTriplet():
     assert problems.specialPythagorasTriplet() == 31875000
+
+def test_summationOfPrimes():
+    assert problems.summationOfPrimes(10) == 17
 def test_powerDigitSum():
     assert problems.powerDigitSum(15) == 26
     assert problems.powerDigitSum(1000) == 1366
+
+def test_factorialDigitSum():
+    assert problems.factorialDigitSum(10) == 27
+    assert problems.factorialDigitSum(100) == 648

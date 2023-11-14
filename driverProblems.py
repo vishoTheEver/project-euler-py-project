@@ -25,7 +25,13 @@ print("Solution 7: " + str(problems.prime10001st(10001)))
 # print("Solution 8: " + str(problems.largestProductInSeries(9989)))
 
 # Problem 9: Special Pythagoras Triplet
-print("Solution 9: " + str(problems.specialPythagorasTriplet()))
+# print("Solution 9: " + str(problems.specialPythagorasTriplet()))
+
+# # Problem 10: Summation of Primes
+# print("Solution 10: " + str(problems.summationOfPrimes(10)))
 
 # Problem 16: Power Digit Sum
 print("Solution 16: " + str(problems.powerDigitSum(1000)))
+
+# Problem 20: Factorial Digit Sum
+print("Solution 20: " + str(problems.factorialDigitSum(100)))

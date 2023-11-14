@@ -89,15 +89,15 @@ def prime10001st(n):
     primes.append(2)
     current_number = 3
     while(len(primes) < n):
-        is_prime = True;
+        is_prime = True
         for prime in primes:
             if(prime * prime > current_number):
-                break;
+                break
             if current_number % prime == 0:
-                is_prime = False;
-                break;
+                is_prime = False
+                break
         if(is_prime):
-            primes.append(current_number);
+            primes.append(current_number)
         current_number += 1
     return primes[-1]
 
@@ -119,3 +119,14 @@ def powerDigitSum(pow):
         sum += int(num[i])
     return sum
 
+# Problem 20: Factorial Digit Sum
+def factorialDigitSum(n):
+    prod = 1
+    for num in range(2, n+1):
+        prod *= num
+
+    sum = 0
+    for char in str(prod):
+        sum += int(char)
+
+    return sum
